@@ -4,4 +4,4 @@ Bem-vindo(a) ao **Cadastro**! Site feito com HTML e CSS!
 
 ## Acesse o site! 👇
 
-https://byancasouza.github.io/calculadoras/
+https://byancasouza.github.io/cadastro/
