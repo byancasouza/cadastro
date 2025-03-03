@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/fundo_cadastro.jpg);
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 40%;
+    padding: 60px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.cadastro p{
+    font-size: 15px;
+}
+
+.cadastro h1{
+    font-size: 40px;
+}
+
+.cadastro span{
+    color: #00b8b8;
+}
+
+.cadastro small a{
+    color: #00b8b8;
+    text-decoration: none;
+}
+
+.cadastro .inputs-nome{
+    margin-top: 3px;
+    padding: 2px;
+}
+
+.cadastro .inputs-nome input{
+    padding: 9px;
+    border: 1px solid #00b8b8;
+    border-radius: 4px;
+}
+
+.cadastro .inputs-nome input:focus{
+    outline: none;
+}
+
+
+.cadastro .inputs-dados{
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+
+.cadastro .inputs-dados input{
+    padding: 9px;
+    border: 1px solid #00b8b8;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.cadastro .inputs-dados input:focus{
+    outline: none;
+}
+
+.cadastro .btn a button{
+    background-color: #00b8b8;
+    border: none;
+    padding: 9px;
+    border-radius: 9px;
+    margin-top: 9px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.cadastro .btn a button:hover{
+    box-shadow: 5px 8px 18px #3ea1a1; /* 1° - direita, 2° - baixo, 3° - espalhar, 4° - "padding"*/
+    transition: .5s;
+
+}
+
+@media screen and (max-width: 799px){
+
+    .container{
+        width: 90%;
+    }
+
+    .inputs-nome input{
+        margin-top: 13px;
+        width: 88%;
+    }
+    
+    .cadastro .inputs-nome input{
+        padding: 9px;
+        border: 1px solid #00b8b8;
+        border-radius: 4px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px){
+
+    .container{
+        width: 90%;
+    }
+
+    .inputs-nome input{
+        width: 88%;
+        margin-top: 13px;
+    }
+}
